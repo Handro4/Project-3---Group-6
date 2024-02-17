@@ -1,4 +1,4 @@
-d3.csv("Resources/aqi_csv").then(function(data) {
+d3.csv("../Data_Cleaning/max_aqi_csv.csv").then(function(data) {
     
 
     // Adds the AQI parameters to the States Data document
