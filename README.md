@@ -1,4 +1,4 @@
-# Project-3---Group-6
+## Comparing Air Quality in the U.S. with Asthma
 
 An overview of the project and its purpose
 

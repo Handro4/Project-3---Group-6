@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     type: 'scatter',
                     marker: { size: 8 },
                     hoverinfo: 'text',
-                    text: stateNames.map((state, index) => `State: ${state}<br>${selectedParameter}: ${xValues[index]}<br>DataValue: ${yValues[index]}`),
+                    text: stateNames.map((state, index) => `State: ${state}<br>${selectedParameter}: ${yValues[index]}<br>DataValue: ${xValues[index]}`),
                     name: "State"
                 };
 
@@ -313,10 +313,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }
 
+                // Datavalue Definition
+                let dataDefinition = filteredData.map(d => d.Question)
+
                 // Define layout
                 let layout = {
-                    title: `Effect of ${selectedParameter} on ${selectedTopic}`,
-                    xaxis: { title: `Age-adjusted ${selectedTopic} Data`},
+                    title: `Affect of ${selectedParameter} on ${selectedTopic}`,
+                    xaxis: { title: `Age-adjusted ${selectedTopic} Data<br><br>${dataDefinition[0]}<br> <br>`},
                     yaxis: { title: selectedParameter },
                     annotations: [annotation]
                 };
