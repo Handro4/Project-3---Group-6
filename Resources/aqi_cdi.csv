@@ -1,0 +1,142 @@
+,State Name,Topic,Question,DataValueType,DataValue,LowConfidenceLimit,HighConfidenceLimit,Ozone,NO2,SO2,CO,PM 2.5
+0,Alabama,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.0,8.0,10.2,0.045526,22.978,4.673446,0.345078,10.016438
+1,Alabama,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,312.5,308.1,317.0,0.045526,22.978,4.673446,0.345078,10.016438
+2,Alabama,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,8.9,7.9,10.0,0.045526,22.978,4.673446,0.345078,10.016438
+6,Arizona,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.7,8.9,10.5,0.05724,38.92033,12.117582,0.684723,17.213333
+7,Arizona,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,195.9,193.1,198.8,0.05724,38.92033,12.117582,0.684723,17.213333
+8,Arizona,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.4,4.8,6.0,0.05724,38.92033,12.117582,0.684723,17.213333
+9,Arkansas,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.9,7.8,10.2,0.043364,17.477596,1.180055,0.287533,9.809836
+10,Arkansas,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,284.1,278.7,289.5,0.043364,17.477596,1.180055,0.287533,9.809836
+11,Arkansas,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,8.1,7.2,9.0,0.043364,17.477596,1.180055,0.287533,9.809836
+12,California,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.3,8.2,10.5,0.074551,43.77913,3.285256,0.620842,40.764417
+13,California,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,202.7,201.4,204.0,0.074551,43.77913,3.285256,0.620842,40.764417
+14,California,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.1,4.3,6.0,0.074551,43.77913,3.285256,0.620842,40.764417
+15,Colorado,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.6,8.9,10.3,0.065656,43.903683,2.054972,0.437755,10.486665
+16,Colorado,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,178.6,175.2,182.0,0.065656,43.903683,2.054972,0.437755,10.486665
+17,Colorado,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.3,3.9,4.7,0.065656,43.903683,2.054972,0.437755,10.486665
+18,Connecticut,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.9,9.9,12.1,0.052949,23.987709,0.576471,0.323794,8.251008
+19,Connecticut,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,180.9,177.2,184.7,0.052949,23.987709,0.576471,0.323794,8.251008
+20,Connecticut,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.6,4.0,5.2,0.052949,23.987709,0.576471,0.323794,8.251008
+21,Delaware,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.8,9.4,12.5,0.044367,19.914749,1.882164,0.24235,8.499579
+22,Delaware,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,227.1,218.9,235.3,0.044367,19.914749,1.882164,0.24235,8.499579
+23,Delaware,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.2,4.4,6.0,0.044367,19.914749,1.882164,0.24235,8.499579
+27,Florida,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,7.3,6.4,8.3,0.042902,22.709786,7.501667,0.477596,9.773523
+28,Florida,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,202.4,200.9,204.0,0.042902,22.709786,7.501667,0.477596,9.773523
+29,Florida,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,6.2,5.4,7.0,0.042902,22.709786,7.501667,0.477596,9.773523
+30,Georgia,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.9,7.9,9.9,0.044362,26.393989,6.853039,0.615581,10.774968
+31,Georgia,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,245.7,242.8,248.7,0.044362,26.393989,6.853039,0.615581,10.774968
+32,Georgia,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,6.2,5.6,7.0,0.044362,26.393989,6.853039,0.615581,10.774968
+35,Hawaii,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.6,7.8,9.5,0.02918,9.008033,10.69415,0.294769,3.925611
+36,Hawaii,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,176.4,170.6,182.3,0.02918,9.008033,10.69415,0.294769,3.925611
+37,Hawaii,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,3.2,2.7,3.7,0.02918,9.008033,10.69415,0.294769,3.925611
+38,Idaho,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.3,8.2,10.5,0.051881,24.328889,16.66361,0.518845,11.069399
+39,Idaho,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,204.8,198.6,211.1,0.051881,24.328889,16.66361,0.518845,11.069399
+40,Idaho,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.2,4.5,6.0,0.051881,24.328889,16.66361,0.518845,11.069399
+41,Illinois,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.7,7.5,9.9,0.048781,28.921096,8.093425,0.336822,10.918421
+42,Illinois,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,231.2,228.8,233.6,0.048781,28.921096,8.093425,0.336822,10.918421
+43,Illinois,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.7,4.8,6.6,0.048781,28.921096,8.093425,0.336822,10.918421
+44,Indiana,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.7,8.9,10.5,0.047988,21.704638,8.249577,0.371916,11.058694
+45,Indiana,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,243.6,240.2,247.1,0.047988,21.704638,8.249577,0.371916,11.058694
+46,Indiana,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,7.6,7.0,8.3,0.047988,21.704638,8.249577,0.371916,11.058694
+47,Iowa,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.3,8.5,10.0,0.04349,12.781844,4.30531,0.188316,10.030249
+48,Iowa,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,223.7,219.1,228.2,0.04349,12.781844,4.30531,0.188316,10.030249
+49,Iowa,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.6,5.1,6.1,0.04349,12.781844,4.30531,0.188316,10.030249
+50,Kansas,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.9,9.1,10.7,0.045996,18.672126,1.439617,0.189261,11.021056
+51,Kansas,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,222.3,217.4,227.1,0.045996,18.672126,1.439617,0.189261,11.021056
+52,Kansas,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.8,5.3,6.3,0.045996,18.672126,1.439617,0.189261,11.021056
+53,Kentucky,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,11.3,10.1,12.7,0.045658,24.350696,8.791209,0.328637,9.834969
+54,Kentucky,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,262.5,258.1,266.8,0.045658,24.350696,8.791209,0.328637,9.834969
+55,Kentucky,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,11.1,10.0,12.3,0.045658,24.350696,8.791209,0.328637,9.834969
+56,Louisiana,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,7.9,6.8,9.0,0.042798,19.528011,8.378689,0.378847,9.570588
+57,Louisiana,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,282.4,277.9,286.9,0.042798,19.528011,8.378689,0.378847,9.570588
+58,Louisiana,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,8.0,7.0,9.2,0.042798,19.528011,8.378689,0.378847,9.570588
+59,Maine,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.9,9.8,12.0,0.044587,16.165616,0.525143,0.177403,7.6
+60,Maine,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,195.2,189.0,201.3,0.044587,16.165616,0.525143,0.177403,7.6
+61,Maine,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,6.9,6.3,7.6,0.044587,16.165616,0.525143,0.177403,7.6
+62,Maryland,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.0,8.3,9.7,0.047379,24.695627,1.837821,0.272116,7.610328
+63,Maryland,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,229.2,225.7,232.6,0.047379,24.695627,1.837821,0.272116,7.610328
+64,Maryland,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.4,4.0,4.9,0.047379,24.695627,1.837821,0.272116,7.610328
+65,Massachusetts,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.6,9.7,11.7,0.045305,23.294118,0.681285,0.3856,8.60781
+66,Massachusetts,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,165.7,163.0,168.4,0.045305,23.294118,0.681285,0.3856,8.60781
+67,Massachusetts,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.0,3.4,4.6,0.045305,23.294118,0.681285,0.3856,8.60781
+68,Michigan,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,11.0,10.0,12.1,0.047797,23.672376,7.879781,0.541406,13.490187
+69,Michigan,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,267.5,264.7,270.4,0.047797,23.672376,7.879781,0.541406,13.490187
+70,Michigan,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,7.5,6.8,8.3,0.047797,23.672376,7.879781,0.541406,13.490187
+71,Minnesota,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.5,8.0,9.1,0.043335,21.417901,2.99116,0.445808,8.86087
+72,Minnesota,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,168.0,165.0,171.1,0.043335,21.417901,2.99116,0.445808,8.86087
+73,Minnesota,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.1,3.7,4.5,0.043335,21.417901,2.99116,0.445808,8.86087
+74,Mississippi,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.8,7.8,9.8,0.042793,9.062952,1.071802,0.144086,10.232056
+75,Mississippi,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,325.8,319.7,331.8,0.042793,9.062952,1.071802,0.144086,10.232056
+76,Mississippi,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,8.0,7.2,8.9,0.042793,9.062952,1.071802,0.144086,10.232056
+77,Missouri,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.5,8.6,10.4,0.047353,22.572877,82.506407,0.271767,11.828098
+78,Missouri,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,251.6,248.1,255.1,0.047353,22.572877,82.506407,0.271767,11.828098
+79,Missouri,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,7.5,6.9,8.2,0.047353,22.572877,82.506407,0.271767,11.828098
+80,Montana,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.8,9.8,11.9,0.048,6.335057,4.326685,0.214401,13.898612
+81,Montana,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,208.6,201.1,216.1,0.048,6.335057,4.326685,0.214401,13.898612
+82,Montana,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.7,5.1,6.4,0.048,6.335057,4.326685,0.214401,13.898612
+86,Nevada,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.2,7.8,10.8,0.056253,37.3241,1.518487,0.478274,12.140812
+87,Nevada,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,256.8,251.5,262.2,0.056253,37.3241,1.518487,0.478274,12.140812
+88,Nevada,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,6.5,5.4,7.8,0.056253,37.3241,1.518487,0.478274,12.140812
+89,New Hampshire,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,11.9,10.7,13.2,0.048417,5.602062,2.02459,0.171516,7.388889
+90,New Hampshire,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,191.0,184.7,197.3,0.048417,5.602062,2.02459,0.171516,7.388889
+91,New Hampshire,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.7,5.0,6.5,0.048417,5.602062,2.02459,0.171516,7.388889
+92,New Jersey,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.6,7.9,9.4,0.045639,31.174022,2.883262,0.422819,9.566926
+93,New Jersey,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,213.9,211.2,216.5,0.045639,31.174022,2.883262,0.422819,9.566926
+94,New Jersey,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.4,3.9,4.9,0.045639,31.174022,2.883262,0.422819,9.566926
+95,New Mexico,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.1,9.0,11.4,0.054139,21.406077,2.299169,0.199805,9.471468
+96,New Mexico,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,200.0,194.7,205.4,0.054139,21.406077,2.299169,0.199805,9.471468
+97,New Mexico,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.3,3.7,4.9,0.054139,21.406077,2.299169,0.199805,9.471468
+98,New York,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.5,8.9,10.2,0.047347,27.664265,13.861538,0.293548,9.078261
+99,New York,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,227.5,225.6,229.3,0.047347,27.664265,13.861538,0.293548,9.078261
+100,New York,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.4,4.0,4.8,0.047347,27.664265,13.861538,0.293548,9.078261
+101,North Carolina,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,7.9,7.0,8.8,0.049679,17.895506,5.482883,0.298036,9.336087
+102,North Carolina,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,217.5,214.9,220.1,0.049679,17.895506,5.482883,0.298036,9.336087
+103,North Carolina,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.7,5.1,6.5,0.049679,17.895506,5.482883,0.298036,9.336087
+104,North Dakota,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.8,7.6,10.2,0.044081,11.001923,5.465181,0.166061,6.776529
+105,North Dakota,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,194.4,185.4,203.4,0.044081,11.001923,5.465181,0.166061,6.776529
+106,North Dakota,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.4,4.5,6.4,0.044081,11.001923,5.465181,0.166061,6.776529
+107,Ohio,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.0,9.3,10.8,0.049518,30.365497,6.929825,0.451703,10.848512
+108,Ohio,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,260.8,258.2,263.3,0.049518,30.365497,6.929825,0.451703,10.848512
+109,Ohio,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,7.1,6.6,7.6,0.049518,30.365497,6.929825,0.451703,10.848512
+110,Oklahoma,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,11.0,9.9,12.2,0.04974,22.476744,4.019231,0.605054,9.978143
+111,Oklahoma,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,300.3,295.3,305.3,0.04974,22.476744,4.019231,0.605054,9.978143
+112,Oklahoma,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,7.9,7.1,8.8,0.04974,22.476744,4.019231,0.605054,9.978143
+113,Oregon,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.7,9.8,11.8,0.048952,18.124859,1.454545,0.351723,24.373333
+114,Oregon,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,194.8,191.1,198.6,0.048952,18.124859,1.454545,0.351723,24.373333
+115,Oregon,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.1,4.5,5.8,0.048952,18.124859,1.454545,0.351723,24.373333
+116,Pennsylvania,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.5,9.4,11.7,0.04869,24.187115,9.980874,0.501164,12.028
+117,Pennsylvania,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,227.6,225.4,229.8,0.04869,24.187115,9.980874,0.501164,12.028
+118,Pennsylvania,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,6.4,5.7,7.3,0.04869,24.187115,9.980874,0.501164,12.028
+121,Rhode Island,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,12.2,10.8,13.7,0.046893,24.901194,0.347353,0.488578,8.399269
+122,Rhode Island,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,195.2,188.1,202.4,0.046893,24.901194,0.347353,0.488578,8.399269
+123,Rhode Island,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,6.2,5.3,7.1,0.046893,24.901194,0.347353,0.488578,8.399269
+124,South Carolina,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.4,8.2,10.7,0.046476,15.202899,1.588791,-0.016876,8.393688
+125,South Carolina,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,232.9,229.1,236.6,0.046476,15.202899,1.588791,-0.016876,8.393688
+126,South Carolina,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,7.2,6.3,8.2,0.046476,15.202899,1.588791,-0.016876,8.393688
+127,South Dakota,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.0,6.7,9.5,0.049383,13.631755,0.934426,0.195527,6.888368
+128,South Dakota,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,209.3,200.8,217.8,0.049383,13.631755,0.934426,0.195527,6.888368
+129,South Dakota,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.7,4.2,7.7,0.049383,13.631755,0.934426,0.195527,6.888368
+130,Tennessee,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.3,9.1,11.6,0.045826,24.794944,12.780282,0.26957,11.499153
+131,Tennessee,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,275.7,272.1,279.3,0.045826,24.794944,12.780282,0.26957,11.499153
+132,Tennessee,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,8.6,7.6,9.7,0.045826,24.794944,12.780282,0.26957,11.499153
+133,Texas,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,7.4,6.5,8.4,0.052081,31.3975,34.251923,0.48793,12.632356
+134,Texas,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,230.9,229.1,232.7,0.052081,31.3975,34.251923,0.48793,12.632356
+135,Texas,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.9,4.3,5.7,0.052081,31.3975,34.251923,0.48793,12.632356
+139,Utah,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.8,10.1,11.5,0.061609,31.437931,1.052368,0.267444,10.601681
+140,Utah,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,204.2,198.8,209.6,0.061609,31.437931,1.052368,0.267444,10.601681
+141,Utah,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.3,3.8,4.7,0.061609,31.437931,1.052368,0.267444,10.601681
+142,Vermont,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,11.5,10.3,12.9,0.041459,12.931909,0.584637,0.314784,7.668528
+143,Vermont,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,212.2,202.5,221.8,0.041459,12.931909,0.584637,0.314784,7.668528
+144,Vermont,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.2,4.6,5.9,0.041459,12.931909,0.584637,0.314784,7.668528
+147,Virginia,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,8.4,7.7,9.3,0.046906,25.537912,19.970231,0.338977,8.729545
+148,Virginia,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,207.1,204.3,209.9,0.046906,25.537912,19.970231,0.338977,8.729545
+149,Virginia,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.3,4.8,5.9,0.046906,25.537912,19.970231,0.338977,8.729545
+150,Washington,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,9.6,8.9,10.3,0.045614,28.346832,10.174269,0.382347,15.067036
+151,Washington,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,186.3,183.4,189.2,0.045614,28.346832,10.174269,0.382347,15.067036
+152,Washington,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.9,4.5,5.4,0.045614,28.346832,10.174269,0.382347,15.067036
+156,Wisconsin,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.3,9.1,11.7,0.048359,22.209041,5.952066,0.238759,9.094399
+157,Wisconsin,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,214.6,211.3,217.9,0.048359,22.209041,5.952066,0.238759,9.094399
+158,Wisconsin,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,4.7,4.0,5.5,0.048359,22.209041,5.952066,0.238759,9.094399
+159,Wyoming,Asthma,Current asthma prevalence among adults aged >= 18 years,Age-adjusted Prevalence,10.3,9.0,11.8,0.053104,16.015819,8.50663,0.147899,7.716949
+160,Wyoming,Cardiovascular Disease,Mortality from total cardiovascular diseases,Age-adjusted Rate,208.1,197.4,218.8,0.053104,16.015819,8.50663,0.147899,7.716949
+161,Wyoming,Chronic Obstructive Pulmonary Disease,Prevalence of chronic obstructive pulmonary disease among adults >= 18,Age-adjusted Prevalence,5.5,4.8,6.3,0.053104,16.015819,8.50663,0.147899,7.716949
