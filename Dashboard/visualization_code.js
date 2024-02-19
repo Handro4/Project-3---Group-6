@@ -263,9 +263,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 let yValues = filteredData.map(d => d[selectedParameter]);
                 let stateNames = filteredData.map(d => d["State Name"]);
 
-                // Fit linear regression model
-                // const regressionModel = new ML.SimpleLinearRegression(xValues, yValues);
-                // const regressionLine = xValues.map(x => regressionModel.predict(x)); 
+                ///// Linear Regression /////
+                let linearRegression = d3.regressionLinear()
+                    .x((d, i) => xValues[i])
+                    .y((d,i) => yValues[i]);
+
+                let regressionLine = linearRegression(filteredData);
+            
+                let corrCoefficient = regressionLine.rSquared
 
 
                 // Create trace for scatter plot
@@ -276,27 +281,44 @@ document.addEventListener("DOMContentLoaded", function () {
                     type: 'scatter',
                     marker: { size: 8 },
                     hoverinfo: 'text',
-                    text: stateNames.map((state, index) => `State: ${state}<br>${selectedParameter}: ${xValues[index]}<br>DataValue: ${yValues[index]}`)
+                    text: stateNames.map((state, index) => `State: ${state}<br>${selectedParameter}: ${xValues[index]}<br>DataValue: ${yValues[index]}`),
+                    name: "State"
                 };
 
-                // // Create trace for regression line
-                // let regressionTrace = {
-                //     x: xValues,
-                //     y: regressionLine,
-                //     mode: 'lines',
-                //     type: 'scatter',
-                //     line: { color: 'red', width: 2 },
-                //     name: 'Linear Regression'
-                // };
+                let regressionTrace = {
+                    x: regressionLine.map(d => d[0]),
+                    y: regressionLine.map(d => d[1]),
+                    mode: 'lines',
+                    type: 'scatter', 
+                    line: {
+                        color: 'red',
+                        width: 2
+                    },
+                    name: 'Regression Line'
+                }
 
                 // Create plot data array
-                let plotData = [trace];//, regressionTrace];
+                let plotData = [trace, regressionTrace];
+
+                let annotation = {
+                    x: 0.10,
+                    y: 0.85,
+                    xref: 'paper',
+                    yref: 'paper',
+                    text: `R: ${corrCoefficient.toFixed(2)}`,
+                    showarrow: false,
+                    font: {
+                        size: 18,
+                        color: 'black'
+                    }
+                }
 
                 // Define layout
                 let layout = {
                     title: `Effect of ${selectedParameter} on ${selectedTopic}`,
                     xaxis: { title: `Age-adjusted ${selectedTopic} Data`},
-                    yaxis: { title: selectedParameter }
+                    yaxis: { title: selectedParameter },
+                    annotations: [annotation]
                 };
 
                 // Plotly function to update the scatter plot
