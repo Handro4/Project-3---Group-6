@@ -1,6 +1,6 @@
 ## Comparing Air Quality across the United States and the prevalence of 3 chronic diseases using data from 2020
 
-An overview of the project and its purpose:
+###An overview of the project and its purpose:
 We are utilizing data from the US Department of Health, Chronic Disease Indicators webpage and the US Environmental Protection Agency, Air Quality Systems API webpage to create our visualizations.
 
 Instructions on how to use and interact with the project
