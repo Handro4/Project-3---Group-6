@@ -318,9 +318,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Define layout
                 let layout = {
-                    title: `Affect of ${selectedParameter} on ${selectedTopic}`,
-                    xaxis: { title: `Age-adjusted ${selectedTopic} Data<br><br>${dataDefinition[0]}<br> <br>`},
-                    yaxis: { title: selectedParameter },
+                    title: `<b>Effect of ${selectedParameter} on ${selectedTopic}<b>`,
+                    titlefont: {
+                        family: 'Arial, sans-serif',
+                        size: 18,
+                        color: '#333'
+                    },
+                    xaxis: { 
+                        title: `<b>Age-adjusted ${selectedTopic} Data<br><br>${dataDefinition[0]}<br> <br><b>`,
+                        titlefont: {
+                            family: 'Arial, sans-serif',
+                            size: 12,
+                            color: '#333',
+                            weight: 'bold'
+                        },
+                        tickfont: {
+                            family: 'Arial, sans-serif',
+                            size: 11,
+                            color: '#333'
+                        }
+                    },
+                    yaxis: { 
+                        title: `<b> ${selectedParameter} </b>`,
+                        titlefont: {
+                            family: 'Arial, sans-serif',
+                            size: 12,
+                            color: '#333'
+                        },
+                        tickfont: {
+                            family: 'Arial, sans-serif',
+                            size: 11,
+                            color: '#333'
+                    } },
+                    textAlign: 'center',
                     annotations: [annotation]
                 };
 
