@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     y: 0.85,
                     xref: 'paper',
                     yref: 'paper',
-                    text: `R: ${corrCoefficient.toFixed(2)}`,
+                    text: `<b>R: ${corrCoefficient.toFixed(2)}<b>`,
                     showarrow: false,
                     font: {
                         size: 18,
@@ -318,19 +318,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Define layout
                 let layout = {
-                    title: `<b>Effect of ${selectedParameter} on ${selectedTopic}<b>`,
+                    title: `<b>Effect of ${selectedParameter} on ${selectedTopic} Prevalence<b>`,
                     titlefont: {
                         family: 'Arial, sans-serif',
-                        size: 18,
+                        size: 20,
                         color: '#333'
                     },
                     xaxis: { 
-                        title: `<b>Age-adjusted ${selectedTopic} Data<br><br>${dataDefinition[0]}<br> <br><b>`,
+                        title: `<b>${dataDefinition[0]} (%)<br> <br><b>`,
                         titlefont: {
                             family: 'Arial, sans-serif',
-                            size: 12,
+                            size: 16,
                             color: '#333',
-                            weight: 'bold'
+                            automargin: true
                         },
                         tickfont: {
                             family: 'Arial, sans-serif',
@@ -342,8 +342,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         title: `<b> ${selectedParameter} </b>`,
                         titlefont: {
                             family: 'Arial, sans-serif',
-                            size: 12,
-                            color: '#333'
+                            size: 16,
+                            color: '#333',
+                            automargin: true
                         },
                         tickfont: {
                             family: 'Arial, sans-serif',
