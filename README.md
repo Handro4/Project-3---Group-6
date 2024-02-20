@@ -5,7 +5,7 @@ We are utilizing data from the US Department of Health, Chronic Disease Indicato
 
 ## Instructions on how to use and interact with the project
 
-Dashboard Link: [http://127.0.0.1:5500/Dashboard/](https://handro4.github.io/Project-3---Group-6/Dashboard/index.html)
+Dashboard Link: (https://handro4.github.io/Project-3---Group-6/Dashboard/index.html)
 
 Map: Toggle the air pollutant options on the top left legend box of the map
 
