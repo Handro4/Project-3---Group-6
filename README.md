@@ -15,6 +15,7 @@ Scatterplot: Toggle the 'Topic' and 'Parameter' dropdown menus to select the dis
 
 ## References for the data source(s):
 - US CDI - https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
+    - This file was too large to store in github so we stored it in a google drive that should be publicly accessible (https://drive.google.com/file/d/16nbTaSTGDQNUv8J8JDMr_5unkdYlr2dU/view?usp=sharing)
 - Visualization tool - https://nccd.cdc.gov/cdi/rdPage.aspx?rdReport=DPH_CDI.ExploreByTopic&islClass=&islTopic=ALC&islYear=
 - US Environmental Protection Agency: Air Quality System (AQS) API - https://aqs.epa.gov/aqsweb/documents/data_api.html
 
