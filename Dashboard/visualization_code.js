@@ -315,6 +315,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Datavalue Definition
                 let dataDefinition = filteredData.map(d => d.Question)
+                let dataType = filteredData.map(d => d.DataValueType)
 
                 // Define layout
                 let layout = {
@@ -325,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         color: '#333'
                     },
                     xaxis: { 
-                        title: `<b>${dataDefinition[0]} (%)<br> <br><b>`,
+                        title: `<b>${dataDefinition[0]} <br> ${dataType[0]} <br> <br><b>`,
                         titlefont: {
                             family: 'Arial, sans-serif',
                             size: 16,
