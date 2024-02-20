@@ -137,8 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             legend.onAdd = function (map) {
                 const div = L.DomUtil.create('div', 'info legend');
-                const categories = ["Good", "Moderate", "Unhealthy for Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous"]; 
-                const colors = ['#24E228', '#FFFD38', '#FE7E23', '#FB0D1C', '#8D4295', '#7D0425']; 
+                const categories = ["Good", "Moderate", "Unhealthy for Sensitive Groups", "Unhealthy", "Very Unhealthy", "Hazardous"];
+                const colors = ['#24E228', '#FFFD38', '#FE7E23', '#FB0D1C', '#8D4295', '#7D0425'];
 
                 let labels = [];
                 for (let i = 0; i < categories.length; i++) {
@@ -252,9 +252,61 @@ document.addEventListener("DOMContentLoaded", function () {
         d3.json("../Resources/location_json.json").then(createMarkers);
 
         d3.csv("../Resources/aqi_cdi.csv").then(function (cdi_data) {
-            // Function to update scatter plot
-            function updateScatterPlot(selectedTopic, selectedParameter) {
-                
+
+            function updatePlots(selectedTopic, selectedParameter) {
+                // Filter data based on selected topic and parameter
+                let filteredDataBar = cdi_data.filter(d => d.Topic === selectedTopic);
+
+                // // Datavalue Definition
+                // let dataDefinition = filteredData.map(d => d.Question)
+                // let dataType = filteredData.map(d => d.DataValueType)
+
+                // Sort the filtered data based on the data values in descending order
+                filteredDataBar.sort((a, b) => b[selectedParameter] - a[selectedParameter]);
+
+                // Extract x and y values based on selected parameter for the top 5 data points
+                let top5Data = filteredDataBar.slice(0, 5).reverse();
+                let xValuesBar = top5Data.map(d => d.DataValue);
+                let yValuesBar = top5Data.map(d => d['State Name']);
+                let dataValueType = top5Data.map(d => d.DataValueType);
+
+                // Create trace for bar plot
+                let trace1 = {
+                    x: xValuesBar,
+                    y: yValuesBar,
+                    //text: stateNamesBar.map((state, index) => `State: ${state}<br>${selectedParameter}: ${xValues[index]}<br>DataValue: ${yValues[index]}`),
+                    type: 'bar',
+                    orientation: 'h'
+                };
+
+                // Create plot data array
+                let plotDataBar = [trace1];
+
+                // Define layout
+                let layoutBar = {
+                    title: `<b>Top 5 Polluted States for ${selectedParameter}<b>`,
+                    titlefont: {
+                        family: 'Arial, sans-serif',
+                        size: 20,
+                        color: '#333'
+                    },
+                    xaxis: {
+                        title: `<b>${dataValueType[0]}<b>`,
+                        titlefont: {
+                            family: 'Arial, sans-serif',
+                            size: 16,
+                            color: '#333',
+                            automargin: true
+                        }
+                    }
+                };
+
+                // Plotly function to update the scatter plot
+                Plotly.newPlot('bar', plotDataBar, layoutBar);
+
+                // // Function to update scatter plot
+                // function updateScatterPlot(selectedTopic, selectedParameter) {
+
                 // Filter data based on selected topic and parameter
                 let filteredData = cdi_data.filter(d => d.Topic === selectedTopic);
 
@@ -266,15 +318,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 ///// Linear Regression /////
                 let linearRegression = d3.regressionLinear()
                     .x((d, i) => xValues[i])
-                    .y((d,i) => yValues[i]);
+                    .y((d, i) => yValues[i]);
 
                 let regressionLine = linearRegression(filteredData);
-            
+
                 let corrCoefficient = regressionLine.rSquared
 
 
                 // Create trace for scatter plot
-                let trace = {
+                let trace2 = {
                     x: xValues,
                     y: yValues,
                     mode: 'markers',
@@ -289,7 +341,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     x: regressionLine.map(d => d[0]),
                     y: regressionLine.map(d => d[1]),
                     mode: 'lines',
-                    type: 'scatter', 
+                    type: 'scatter',
                     line: {
                         color: 'red',
                         width: 2
@@ -298,7 +350,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 // Create plot data array
-                let plotData = [trace, regressionTrace];
+                let plotData = [trace2, regressionTrace];
 
                 let annotation = {
                     x: 0.10,
@@ -316,7 +368,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Datavalue Definition
                 let dataDefinition = filteredData.map(d => d.Question)
                 let dataType = filteredData.map(d => d.DataValueType)
-
                 // Define layout
                 let layout = {
                     title: `<b>Effect of ${selectedParameter} on ${selectedTopic} Prevalence<b>`,
@@ -325,7 +376,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         size: 20,
                         color: '#333'
                     },
-                    xaxis: { 
+                    xaxis: {
                         title: `<b>${dataDefinition[0]} <br> ${dataType[0]} <br> <br><b>`,
                         titlefont: {
                             family: 'Arial, sans-serif',
@@ -339,7 +390,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             color: '#333'
                         }
                     },
-                    yaxis: { 
+                    yaxis: {
                         title: `<b> ${selectedParameter} </b>`,
                         titlefont: {
                             family: 'Arial, sans-serif',
@@ -351,7 +402,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             family: 'Arial, sans-serif',
                             size: 11,
                             color: '#333'
-                    } },
+                        }
+                    },
                     textAlign: 'center',
                     annotations: [annotation]
                 };
@@ -367,30 +419,40 @@ document.addEventListener("DOMContentLoaded", function () {
             //Extract unique topics and parameters
             let uniqueTopics = ['Asthma', 'Cardiovascular Disease', 'Chronic Obstructive Pulmonary Disease'];
             let uniqueParameters = ['Ozone', 'NO2', 'SO2', 'CO', 'PM 2.5'];
-            //Populate dropdowns with necessary data
-            uniqueTopics.forEach(topic => {
+            // Populate dropdowns with necessary data
+            uniqueTopics.forEach((topic, index) => {
                 topicDropdown.append("option").text(topic).property("value", topic);
+                if (index === 0) { // Select the first topic by default
+                    topicDropdown.property("value", topic);
+                }
             });
-            uniqueParameters.forEach(parameter => {
+            uniqueParameters.forEach((parameter, index) => {
                 parameterDropdown.append("option").text(parameter).property("value", parameter);
+                if (index === 0) { // Select the first parameter by default
+                    parameterDropdown.property("value", parameter);
+                }
             });
+
 
             // Event handler for topic dropdown change
             topicDropdown.on("change", function () {
-                let selectedTopic = this.value;
+                let selectedTopic = this.value;//topicDropdown.property("this.value");
                 let selectedParameter = parameterDropdown.property("value");
-                updateScatterPlot(selectedTopic, selectedParameter);
+                updatePlots(selectedTopic, selectedParameter);
+                //updateBarPlot(selectedTopic, selectedParameter);
             });
 
             // Event handler for parameter dropdown change
             parameterDropdown.on("change", function () {
                 let selectedTopic = topicDropdown.property("value");
                 let selectedParameter = this.value;
-                updateScatterPlot(selectedTopic, selectedParameter);
+                updatePlots(selectedTopic, selectedParameter);
+                //updateBarPlot(selectedTopic, selectedParameter);
             });
 
-            // Initial scatter plot
-            updateScatterPlot(uniqueTopics[0], uniqueParameters[0]);
+
+            // Initial plots
+            updatePlots(uniqueTopics[0], uniqueParameters[0]);
         });
     });
 

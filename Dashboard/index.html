@@ -11,29 +11,64 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Linear Regression Package -->
   <script src="https://unpkg.com/d3-regression@1.3.10/dist/d3-regression.min.js"></script>
 
   <style>
-      html, body {
-          height: 100%;
-          margin: 0;
-      }
-      .leaflet-container {
-          height: 400px;
-          width: 600px;
-          max-width: 100%;
-          max-height: 100%;
-      }
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .leaflet-container {
+      height: 400px;
+      width: 600px;
+      max-width: 100%;
+      max-height: 100%;
+    }
   </style>
 
-  <style>#map { width: 800px; height: 500px; }
-.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
-.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
+  <style>
+    #map {
+      width: 800px;
+      height: 500px;
+    }
+
+    .info {
+      padding: 6px 8px;
+      font: 14px/16px Arial, Helvetica, sans-serif;
+      background: white;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+
+    .info h4 {
+      margin: 0 0 5px;
+      color: #777;
+    }
+
+    .legend {
+      text-align: left;
+      line-height: 18px;
+      color: #555;
+    }
+
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.7;
+    }
+  </style>
+
 
 </head>
 
@@ -57,7 +92,7 @@
           <div class="well" style="padding: 20px;">
             <h5 class="text-center">Topic:</h5>
             <div class="text-center">
-              <select id="topicDropdown" onchange="optionChanged(this.value)"></select>
+              <select id="topicDropdown" ><option value = uniqueTopics></option></select>
             </div>
           </div>
         </div>
@@ -65,25 +100,22 @@
           <div class="well" style="padding: 20px;">
             <h5 class="text-center">Parameter:</h5>
             <div class="text-center">
-              <select id="parameterDropdown" onchange="updateScatterPlot()"></select>
+              <select id="parameterDropdown" ><option value = uniqueParameters></option></select>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Most Polluted States</h3>
-            </div>
-            <div id="sample-metadata" class="panel-body"></div>
-          </div>
+            <!-- Bar chart placeholder -->
+            <div id="bar"></div>
         </div>
         <div class="col-md-8">
-          <div id="scatterPlot"></div> 
+            <!-- Scatter plot placeholder -->
+            <div id="scatterPlot"></div>
         </div>
-      </div>
     </div>
+  </div>
 
   <!-- D3 Javascript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
