@@ -20,3 +20,7 @@ Scatterplot: Toggle the 'Topic' and 'Parameter' dropdown menus to select the dis
 - US Environmental Protection Agency: Air Quality System (AQS) API - https://aqs.epa.gov/aqsweb/documents/data_api.html
 
 ## References for any code used that is not your own
+- We used Chloropleth to plot our map and used a tutorial that highlighted the states in a certain color based on our data
+    - https://leafletjs.com/examples/choropleth/
+- ChatGPT was used to help us troubleshoot our code when we ran into issues
+    - https://chat.openai.com/
