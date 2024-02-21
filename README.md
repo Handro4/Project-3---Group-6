@@ -92,3 +92,5 @@ This dataset collects air quality metrics across the United States from various 
     - https://unpkg.com/d3-regression@1.3.10/dist/d3-regression.min.js
 - Airnow Air Quality Index
     - https://www.airnow.gov/education/students/what-is-the-aqi/
+- EdX Bootcamp: Bellybutton Challenge HTML code (Module 14)
+    - Used to build our HTML code
